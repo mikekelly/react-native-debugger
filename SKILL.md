@@ -1,5 +1,5 @@
 ---
-name: react-native-debugging
+name: debugging-react-native
 description: Use PROACTIVELY when debugging React Native apps. Reads console logs and executes JavaScript in running apps via Metro bundler. Invoke for: app crashes, state inspection, API debugging, error investigation, or running diagnostic code. Requires Metro running (port 8081).
 ---
 
@@ -7,11 +7,8 @@ description: Use PROACTIVELY when debugging React Native apps. Reads console log
 Connect to running React Native apps via Metro bundler to read console logs and execute JavaScript. Provides three tools for app discovery, log streaming, and JS execution in the app context.
 </objective>
 
-<prerequisites>
-Requires `websocket-client`: `pip install websocket-client`
-</prerequisites>
-
 <quick_start>
+**Prerequisite:** `pip install websocket-client`
 **Assume a single app is connected.** Just call `read_logs.py` or `execute_in_app.py` directly - they auto-select the app when only one is connected (the typical case).
 
 ```bash
