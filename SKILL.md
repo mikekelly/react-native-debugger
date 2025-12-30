@@ -1,6 +1,6 @@
 ---
 name: debugging-react-native
-description: Use PROACTIVELY when debugging React Native apps. Reads console logs and executes JavaScript in running apps via Metro bundler. Invoke for: app crashes, state inspection, API debugging, error investigation, or running diagnostic code. Requires Metro running (port 8081).
+description: "Use PROACTIVELY when debugging React Native apps. Reads console logs and executes JavaScript in running apps via Metro bundler. Invoke for: app crashes, state inspection, API debugging, error investigation, or running diagnostic code. Requires Metro running (port 8081)."
 ---
 
 <objective>
